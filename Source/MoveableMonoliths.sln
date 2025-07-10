@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveableMonoliths", "MoveableMonoliths.csproj", "{37C74E53-F6CD-4F17-8967-F11EAA1BA622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37C74E53-F6CD-4F17-8967-F11EAA1BA622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C74E53-F6CD-4F17-8967-F11EAA1BA622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C74E53-F6CD-4F17-8967-F11EAA1BA622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C74E53-F6CD-4F17-8967-F11EAA1BA622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		    SolutionGuid = {1A644F07-915D-43BE-B909-B5D2AC3BABAC}
+		SolutionGuid = {329EA9AA-3FF7-4B35-AC7C-A4253C71378A}
+	EndGlobalSection
+EndGlobal

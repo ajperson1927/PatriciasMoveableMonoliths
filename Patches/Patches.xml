@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PAT.MoveableMonoliths.PatchOperation">
+    <name>WarpedObelisk</name>
+    <setting>obelisk</setting>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategory>BuildingsSpecial</thingCategory>
+    <claimable>true</claimable>
+    <mass>60</mass>
+  </Operation>
+
+  <Operation Class="PAT.MoveableMonoliths.PatchOperation">
+    <defName>VoidMonolith</defName>
+    <setting>monolith</setting>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategory>BuildingsSpecial</thingCategory>
+    <claimable>true</claimable>
+    <mass>60</mass>
+  </Operation>
+
+  <Operation Class="PAT.MoveableMonoliths.PatchOperation">
+    <defName>Plant_TreeHarbinger</defName>
+    <setting>harbringer</setting>
+    <minifiedDef></minifiedDef>
+  </Operation>
+
+  <Operation Class="PAT.MoveableMonoliths.PatchOperation">
+    <defName>PitGate</defName>
+    <setting>pitgate</setting>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategory>BuildingsSpecial</thingCategory>
+    <mass>60</mass>
+  </Operation>
+</Patch>

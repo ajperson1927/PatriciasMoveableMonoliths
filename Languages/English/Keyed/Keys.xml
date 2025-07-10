@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PAT.RequiresRestart>(Requires Restart to Apply)</PAT.RequiresRestart>
+  <PAT.ApplyPatch>Apply Uninstall patch:</PAT.ApplyPatch>
+  <PAT.Obelisk>Obelisk</PAT.Obelisk>
+  <PAT.Monolith>Monolith</PAT.Monolith>
+  <PAT.Harbinger>Harbinger</PAT.Harbinger>
+  <PAT.Pitgate>Pitgate</PAT.Pitgate>
+</LanguageData>

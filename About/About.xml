@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Patricia's Moveable Monoliths</name>
+  <author>Patricia?!</author>
+  <modDependencies>
+  </modDependencies>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>PAT.moveablemonoliths</packageId>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Anomaly</li>
+  </loadAfter>
+  <description>Makes Monoliths Moveable</description>
+  <modIconPath IgnoreIfNoMatchingField="True">PatMoveableMonoliths_ModIcon</modIconPath>
+</ModMetaData>
