@@ -73,7 +73,7 @@ public static class Tick_Patch
                 
             }
             
-            // Check if we're past the IsHashIntervalTick if block
+            // Check if we're past the IsHashIntervalTick if block. IL_0077
             if (instruction.opcode == OpCodes.Ldarg_0 && previous != null)
             {
                 if (previous.opcode == OpCodes.Stfld &&
@@ -127,6 +127,11 @@ public static class Tick_Patch
                     previous.operand is MethodInfo method &&
                     method == IsReservedMethod)
                 {
+                    foreach (var codeInstruction in LogMessage("Before IsReseved branch"))
+                    {
+                        yield return codeInstruction;
+                    }
+                    
                     yield return instruction;
                     
                     foreach (var codeInstruction in LogMessage("IsReserved false"))
@@ -134,10 +139,23 @@ public static class Tick_Patch
                     
                     continue;
                 }
-            } 
-            
-            
-            
+            }
+
+            // Check if Level0HintEffecter is null
+            if (instruction.opcode == OpCodes.Brtrue_S && previous != null)
+            {
+                if (previous.opcode == OpCodes.Ldfld &&
+                    previous.operand is FieldInfo fieldInfo &&
+                    fieldInfo == Level0HintEffecterField)
+                {
+                    yield return instruction;
+                    
+                    foreach (var codeInstruction in LogMessage("Level0HintEffecter is null"))
+                        yield return codeInstruction;
+                    
+                    continue;
+                }
+            }
             
             
             
